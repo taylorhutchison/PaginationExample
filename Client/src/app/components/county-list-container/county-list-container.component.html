@@ -1,0 +1,3 @@
+<ng-container *ngIf="countyResults">
+  <app-county-list [countyResults]="countyResults" (pageEvent)="page($event)"></app-county-list>
+</ng-container>
